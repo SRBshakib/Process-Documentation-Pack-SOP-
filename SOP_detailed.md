@@ -13,7 +13,7 @@
 ---
 
 ## 1. Purpose
-This Standard Operating Procedure (SOP) establishes a mandatory, repeatable quality gate for validating datasets before analytical consumption. Using the **Olist Brazilian E-Commerce Dataset** (`Project 1: SQL Data Quality Audit`) as our reference implementation, this guide walks analysts from initial schema inspection through automated SQL/Python rule execution, anomaly triage, escalation, and final sign-off.
+This Standard Operating Procedure (SOP) establishes a mandatory, repeatable quality gate for validating datasets before analytical consumption. Using the **Olist Brazilian E-Commerce Dataset** as our reference implementation, this guide walks analysts from initial schema inspection through automated SQL/Python rule execution, anomaly triage, escalation, and final sign-off.
 
 ---
 
@@ -47,7 +47,7 @@ This Standard Operating Procedure (SOP) establishes a mandatory, repeatable qual
 
 1. **Relational Database:** PostgreSQL 14+ (or MySQL 8.0+) with a dedicated `olist_audit` or staging schema.
 2. **SQL Client:** DBeaver (v23+) or `psql` CLI.
-3. **Automated Python Validator (Optional / CI):** `python validator.py <data.csv> rules.yaml` (`Project 3`).
+3. **Automated Python Validator (Optional / CI):** `python validator.py <data.csv> rules.yaml`.
 4. **Templates:**
    - Validation Checklist: [checklist.md](checklist.md)
    - Issue Log Workbook: [templates/issue_log_template.xlsx](templates/issue_log_template.xlsx)
@@ -243,4 +243,4 @@ Reconcile aggregated financial totals across tables and check for conflicting st
 | :--- | :--- | :--- | :--- |
 | `1.0.0` | `2026-09-01` | Data Governance Team | Initial SOP draft for relational CSV pre-analysis validation. |
 | `2.0.0` | `2026-10-15` | Senior BI Engineer | Added 20-check SQL audit taxonomy across 5 categories based on Olist e-commerce audit. |
-| `2.1.0` | `2026-11-17` | Data Analytics Team | Integrated automated Python validator (`Project 3`), remediation matrix, and SLA escalation rules. |
+| `2.1.0` | `2026-11-17` | Data Analytics Team | Integrated automated Python validator, remediation matrix, and SLA escalation rules. |

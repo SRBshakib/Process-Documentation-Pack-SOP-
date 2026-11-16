@@ -1,6 +1,6 @@
 # Process Documentation Pack (SOP): Pre-Analysis Dataset Validation
 
-This documentation pack provides a complete **Standard Operating Procedure (SOP)** for validating raw datasets before analytical consumption, BI dashboarding, or machine learning. It builds directly on **[Project 1: SQL Data Quality Audit](../sql-data-quality-audit/README.md)** (Olist Brazilian E-Commerce Dataset) and pairs with **[Project 3: Automated Validation Script](../data-validator/README.md)**.
+This documentation pack provides a complete **Standard Operating Procedure (SOP)** for validating raw datasets before analytical consumption, BI dashboarding, or machine learning, using the **Olist Brazilian E-Commerce Dataset** as the reference case study.
 
 Because teams need both quick-reference onboarding material and rigorous technical specifications ("simple to complex" instructions), this repository includes **two tailored versions** of the SOP alongside an interactive checklist, visual workflow diagram, and Excel issue-tracking template.
 
